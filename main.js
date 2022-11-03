@@ -38,11 +38,11 @@ toggal.addEventListener('change', () => {
   renderPrice();
 });
 
-if (window.innerWidth <= 767) {
-  document.querySelector('.discount').innerText = '25%';
-} else {
-  document.querySelector('.discount').innerText = '25% discount';
-}
+
 window.onresize = () => {
-  window.location.reload();
+  if (window.innerWidth <= 767) {
+    document.querySelector('.discount').innerText = '25%';
+  } else {
+    document.querySelector('.discount').innerText = '25% discount';
+  }
 }

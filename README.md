@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive pricing component solution
 
-This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-interactive-pricing-component-xZbGD6WXdX)
+- Live Site URL: [Add live site URL here](https://abdulelah-abacar.github.io/interactive-pricing-componen/)
 
 ## My process
 
@@ -48,14 +48,14 @@ Users should be able to:
 ### What I learned
 
 - How to make a custom value for css from js
+
 ```js
-target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
+target.style.backgroundSize = ((val - min) * 100) / (max - min) + "% 100%";
 ```
 
 ### Continued development
 
 ### Useful resources
-
 
 ## Author
 
@@ -63,4 +63,3 @@ target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
 - Frontend Mentor - [@Abdulelah-Abacar](https://www.frontendmentor.io/profile/Abdulelah-Abacar)
 
 ## Acknowledgments
-
