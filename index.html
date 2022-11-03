@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bg"><img src="images/bg-pattern.svg" alt=""></div>
+    <main class="container">
+      <section class="title">
+        <h1 class="main_title">Simple, traffic-based pricing</h1>
+        <p class="subtitle">Sign-up for our 30-day trial. No credit card required.</p>
+        <img src="images/pattern-circles.svg" alt="">
+      </section>
+      <section class="form-container">
+        <form>
+          <div class="viewers_price">
+            <h2 class="pageviews">100K pageviews</h2>
+            <div class="price_amount">
+              <h2>$16.00</h2><span>/month</span>
+            </div>
+            <div class="range">
+              <input type="range" name="" id="range-input" step="1" value="2" min="0" max="4">
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="state">
+              <span class="monthly">Monthly Billing</span>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <span class="yearly">Yearly Billing</span>
+              <span class="discount">25% discount</span>
+            </div>
+          </div>
+          <div class="submit">
+            <div class="featuers">
+              <div class="featuer">
+                <img src="images/icon-check.svg" alt="">
+                <p>Unlimited websites</p>
+              </div>
+              <div class="featuer">
+                <img src="images/icon-check.svg" alt="">
+                <p>100% data ownership</p>
+              </div>
+              <div class="featuer">
+                <img src="images/icon-check.svg" alt="">
+                <p>Email reports</p>
+              </div>
+            </div>
+            <input class="sub" type="submit" value="Start my trial">
+          </div>
+        </form>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Abdulelah</a>.
+    </div>
+    <script src="main.js"></script>
+  </body>
+
+</html>
